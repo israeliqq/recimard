@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Servidor: localhost
--- Tiempo de generación: 05-11-2018 a las 15:25:06
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 5.6.35
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 08-11-2018 a las 19:11:25
+-- Versión del servidor: 10.1.36-MariaDB
+-- Versión de PHP: 5.6.38
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -45,28 +45,8 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`id`, `nombre`, `telefono`, `correo`, `ciudad`, `direccion`, `t1`, `t2`, `t3`) VALUES
-(1, 'LA CARRETA 680', '123', '123', '123', '123', 1, 0, 0),
-(2, 'Samuel', '1-485-628-8610', 'ornare.lectus@dignissim.net', 'Louvain-la-Neuve', 'Apartado núm.: 877, 4654 Eget Av.', 10, 5, 2),
-(3, 'Thor', '1-791-227-7540', 'magna.Suspendisse.tristique@ullamcorpereu.org', 'Padre Hurtado', '535-4640 Donec Avda.', 7, 7, 7),
-(4, 'Benedict', '1-540-625-0116', 'sagittis@natoquepenatibus.com', 'Starachowice', '425-2100 Senectus Calle', 10, 1, 5),
-(5, 'Garrett', '1-405-218-9569', 'a.tortor.Nunc@velvenenatisvel.ca', 'Nijmegen', 'Apdo.:768-1948 Faucibus Calle', 4, 2, 5),
-(6, 'Chaim', '1-102-744-7688', 'eu.tellus@quismassaMauris.ca', 'Cape Breton Island', 'Apartado núm.: 814, 6310 Dui, Av.', 9, 5, 2),
-(7, 'Malachi', '1-678-579-3972', 'erat@a.edu', 'Montignies-sur-Sambre', 'Apdo.:130-2384 Fusce Avda.', 5, 9, 5),
-(8, 'Ferdinand', '1-448-800-1205', 'lacus.Ut.nec@elementumpurusaccumsan.edu', 'Silius', 'Apdo.:365-6903 Ac Ctra.', 5, 1, 1),
-(9, 'Edan', '1-575-188-6820', 'non.bibendum@ipsum.net', 'Manisa', 'Apartado núm.: 159, 455 Neque Avda.', 3, 3, 1),
-(10, 'Hall', '1-235-639-7302', 'sollicitudin.commodo.ipsum@Duiscursusdiam.org', 'San Valentino in Abruzzo Citeriore', 'Apdo.:874-7091 Diam. C/', 6, 1, 9),
-(11, 'Grady', '1-153-832-3215', 'in.sodales@Curabitur.net', 'Curitiba', '636-9148 Sapien Carretera', 9, 2, 3),
-(12, 'Mark', '1-155-898-2222', 'tellus@orciin.ca', 'Sint-Genesius-Rode', '1831 Vel ', 4, 5, 2),
 (13, 'Mannix', '1-567-589-1547', 'libero.at@leo.ca', 'Velaine-sur-Sambre', '780-6957 Nullam Ctra.', 7, 7, 4),
-(14, 'Steven', '1-502-926-5073', 'non@liberoProinmi.co.uk', 'Donstiennes', 'Apdo.:737-7582 Molestie C/', 3, 1, 3),
-(15, 'Ezekiel', '1-430-483-5624', 'urna@turpisnec.ca', 'Roosendaal', 'Apdo.:686-9141 Placerat, Avda.', 2, 3, 4),
-(16, 'Vance', '1-797-412-1386', 'massa@egestas.co.uk', 'Walhain-Saint-Paul', 'Apartado núm.: 539, 4960 Convallis Ctra.', 7, 4, 1),
-(17, 'Jasper', '1-446-672-6892', 'Vivamus@velsapien.org', 'Warren', '246-9926 Ac Calle', 4, 8, 4),
-(18, 'Preston', '1-460-262-4662', 'in.faucibus@arcu.com', 'Arica', 'Apartado núm.: 335, 7265 In Avenida', 1, 1, 9),
 (19, 'Eagan', '1-152-924-4452', 'nec.ligula@aceleifend.edu', 'Detroit', 'Apartado núm.: 135, 4388 Ante, Carretera', 6, 2, 6),
-(20, 'Micah', '1-259-852-9798', 'lacinia.Sed.congue@a.org', 'Capannori', 'Apdo.:676-8720 Non, Carretera', 5, 6, 8),
-(21, 'Porter', '1-755-953-0479', 'quam@dignissimmagnaa.ca', 'Banff', 'Apdo.:607-210 Nunc ', 8, 10, 5),
-(22, 'Bevis', '1-368-613-1167', 'facilisi@nonquam.com', 'Kurnool', '401-3393 Massa C/', 8, 7, 2),
 (23, 'Jarrod', '1-856-494-1149', 'et.magnis@velitCras.net', 'Gentinnes', 'Apdo.:597-9397 Habitant Avda.', 1, 6, 9),
 (24, 'Malcolm', '1-926-800-1718', 'et.lacinia.vitae@temporeratneque.net', 'Colchester', '6033 Eros. Av.', 9, 5, 4),
 (25, 'Lucian', '1-374-153-0151', 'rhoncus@malesuadaInteger.edu', 'Teralfene', '329-5018 Feugiat Avenida', 1, 4, 6),
@@ -145,7 +125,8 @@ INSERT INTO `cliente` (`id`, `nombre`, `telefono`, `correo`, `ciudad`, `direccio
 (98, 'Kelly', '1-694-135-0738', 'vitae@sagittis.ca', 'Huara', 'Apdo.:445-4465 Magna. Carretera', 5, 4, 2),
 (99, 'Judah', '1-486-291-9353', 'feugiat@Suspendissealiquet.net', 'Londrina', 'Apartado núm.: 159, 8277 Morbi Avenida', 6, 5, 5),
 (100, 'Caleb', '1-311-272-9225', 'Ut.tincidunt@ametanteVivamus.com', 'Kempten', 'Apdo.:246-1136 Ultricies Avenida', 6, 3, 9),
-(101, 'Phillip', '1-224-467-5571', 'tellus@pellentesqueafacilisis.com', 'Faizabad', 'Apdo.:773-3410 Imperdiet Carretera', 5, 4, 9);
+(101, 'Phillip', '1-224-467-5571', 'tellus@pellentesqueafacilisis.com', 'Faizabad', 'Apdo.:773-3410 Imperdiet Carretera', 5, 4, 9),
+(102, 'ISRAEL TERAN', '930038623', 'israeliqq@live.cl', 'Iquique', 'Bolivar 1074', 555, 555, 555);
 
 -- --------------------------------------------------------
 
@@ -165,8 +146,6 @@ CREATE TABLE `retiro` (
 --
 
 INSERT INTO `retiro` (`id`, `fecha`, `kilos`, `fk_cliente`) VALUES
-(1, '2018-10-19', 555, 1),
-(1, '2018-07-17', 432, 1),
 (3, '2018-08-25', 7, 1),
 (4, '2018-02-07', 8, 7),
 (5, '2018-07-01', 7, 5),
@@ -279,6 +258,12 @@ ALTER TABLE `cliente`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `retiro`
+--
+ALTER TABLE `retiro`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -286,7 +271,13 @@ ALTER TABLE `cliente`
 -- AUTO_INCREMENT de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+
+--
+-- AUTO_INCREMENT de la tabla `retiro`
+--
+ALTER TABLE `retiro`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
